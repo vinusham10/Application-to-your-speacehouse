@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application to your spaceship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-1%5B1%5D.png" alt="astro1" id="astro1">
+    <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-2%5B1%5D.png" alt="astro2" id="astro2">
+    
+    <form action="">
+        <h1>Rocket around the moon with your BFFs</h1>
+        <label for="country" class="block-display">  Departure country</label>
+        <select name="countries" id="country">
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="USA">USA</option>
+        <option value="Ukraine">Ukraine</option>
+        </select>
+        <label for="travellers" class="block-display">No. of space travellers</label>
+        <input type="number" name="travellers" id="travellers"> 
+
+        <label for="email" class="block-display" >Your email</label>
+        <input type="text" name="email" id="email" placeholder="Ilovespace@gmail.com">
+
+        <label for="rent" class="block-display">Do you want to rent a spacesuit?</label>
+
+        <input type="radio" id="yes" name="rent button" value="yes">
+        <label for="yes" class="rent label">Yes, please</label>
+
+        <input type="radio" id="no" name="rent button" value="no">
+        <label for="no" class="rent label">No,  I already have one.</label>
+         
+        <input type="submit" id="button" value="Take us to space">
+
+    </form>
+</body>
+</html>
